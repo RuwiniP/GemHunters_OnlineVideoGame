@@ -2,7 +2,8 @@
 This a console-based 2D game called "Gem Hunters" where players compete to collect the most gems within a set number of turns.The player with the most gems collected after all turns are exhausted wins.
 If both players have the same number of gems, it's a tie. Each player will be getting 15 turns of round to play and game will be ended in 30 turns. A live demonstration of the application can be accessed through the below link.
 
-[Watch Live Demo]{https://youtu.be/VyGsOqH_Oxk?si=CFxgEFIM_VkxWgnK}
+[Watch Live Demo](https://youtu.be/VyGsOqH_Oxk?si=CFxgEFIM_VkxWgnK)
+
 ![image](https://github.com/RuwiniP/GemHunters_OnlineVideoGame/assets/31927767/0a6eab74-146c-4621-b26c-c293cb71a877)
 
 
