@@ -43,10 +43,10 @@ namespace Game_development___Assignment2
                     return;
             }
 
-            // Check if the new position is within the bounds of the board
+            // Check for the valid bounds
             if (newX >= 0 && newX < 6 && newY >= 0 && newY < 6)
             {
-                // Check if the new position is not occupied by an obstacle
+                // Check the availability of obstacles
                 if (board.Grid[newY, newX].Occupant != "O")
                 {
                     Position.X = newX;

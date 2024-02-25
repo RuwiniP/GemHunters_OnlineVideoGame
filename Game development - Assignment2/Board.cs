@@ -20,7 +20,7 @@ namespace Game_development___Assignment2
 
         private void InitializeBoard()
         {
-            // Initialize all cells as empty
+            // Initialize the empty cell
             for (int i = 0; i < 6; i++)
             {
                 for (int j = 0; j < 6; j++)
@@ -113,7 +113,7 @@ namespace Game_development___Assignment2
                     return false;
             }
 
-            // Check if new position is within bounds and not occupied by an obstacle
+            // Checking the avaialability of the new position
             if (newX >= 0 && newX < 6 && newY >= 0 && newY < 6)
             {
                 if (Grid[newY, newX].Occupant == "O")

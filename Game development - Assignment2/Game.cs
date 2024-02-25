@@ -49,7 +49,7 @@ namespace Game_development___Assignment2
             }
 
             AnnounceWinner();
-            Thread.Sleep(6000);
+            Thread.Sleep(6000); // wait before closing the console
         }
 
         private void SwitchTurn()
@@ -78,6 +78,7 @@ namespace Game_development___Assignment2
             }
             else
             {
+                //If equal number of gems were collected
                 Console.WriteLine("It's a tie!");
             }
         }
