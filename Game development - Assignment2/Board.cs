@@ -34,13 +34,13 @@ namespace Game_development___Assignment2
         }
         private void PlaceGems()
         {
-            for (int i = 0; i < 3; i++) // Place 3 gems
+            for (int i = 0; i < 5; i++) // Place 5 gems
             {
                 int x, y;
                 do
                 {
-                    x = random.Next(4);
-                    y = random.Next(2);
+                    x = random.Next(6);
+                    y = random.Next(6);
                 } while (Grid[y, x].Occupant != "-");
 
                 Grid[y, x].Occupant = "G";
