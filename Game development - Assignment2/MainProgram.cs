@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Game_development___Assignment2
 {
-    internal class MainProgram
+    class MainProgram
     {
+        static void Main(string[] args)
+        {
+            Game game = new Game();
+            game.Start();
+        }
     }
 }
