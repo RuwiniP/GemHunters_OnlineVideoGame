@@ -34,7 +34,7 @@ namespace Game_development___Assignment2
         }
         private void PlaceGems()
         {
-            for (int i = 0; i < 5; i++) // Place 5 gems
+            for (int i = 0; i < 10; i++) // Place 10 gems
             {
                 int x, y;
                 do
@@ -49,7 +49,7 @@ namespace Game_development___Assignment2
 
         private void PlaceObstacles()
         {
-            for (int i = 0; i < 5; i++) // Place 5 obstacles
+            for (int i = 0; i < 8; i++) // Place 8 obstacles
             {
                 int x, y;
                 do

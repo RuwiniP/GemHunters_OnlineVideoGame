@@ -49,6 +49,7 @@ namespace Game_development___Assignment2
             }
 
             AnnounceWinner();
+            Thread.Sleep(6000);
         }
 
         private void SwitchTurn()
